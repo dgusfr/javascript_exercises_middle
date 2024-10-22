@@ -12,7 +12,7 @@ class Veiculo {
 class Carro extends Veiculo {
   constructor(marca, modelo, numPortas) {
     super(marca, modelo);
-    return (this.numPortas = numPortas);
+    this.numPortas = numPortas;
   }
 
   imprimir_numero_portas() {
@@ -22,3 +22,4 @@ class Carro extends Veiculo {
 
 const meuCarro = new Carro("Toyota", "Corolla", 4);
 meuCarro.imprimirInformacoes();
+meuCarro.imprimir_numero_portas();
