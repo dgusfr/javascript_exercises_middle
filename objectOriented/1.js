@@ -11,9 +11,8 @@ class Veiculo {
 
 class Carro extends Veiculo {
   constructor(marca, modelo, numPortas) {
-    //Chama o construtor da classe pai e inicializar as propriedades herdadas.
     super(marca, modelo);
-    this.numPortas = numPortas;
+    return (this.numPortas = numPortas);
   }
 }
 
