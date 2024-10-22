@@ -10,6 +10,8 @@ class Funcionario extends Pessoa {
     super(nome, idade);
     this.cargo = cargo;
     this.salario = salario;
+    this.cargo = cargo;
+    this.salario = salario;
   }
 
   imprimirInformacoes() {
