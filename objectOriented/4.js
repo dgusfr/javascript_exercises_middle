@@ -3,10 +3,6 @@ class Pessoa {
     this.nome = nome;
     this.idade = idade;
   }
-
-  imprimirInformacoes() {
-    console.log(`Nome: ${this.nome}, Idade: ${this.idade}`);
-  }
 }
 
 class Funcionario extends Pessoa {
@@ -14,6 +10,12 @@ class Funcionario extends Pessoa {
     super(nome, idade);
     this.cargo = cargo;
     this.salario = salario;
+  }
+
+  imprimirInformacoes() {
+    console.log(
+      `Nome: ${this.nome}, Idade: ${this.idade}, Profissão: ${this.cargo}, Salário: ${this.salario}`
+    );
   }
 }
 
