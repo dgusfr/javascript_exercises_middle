@@ -11,13 +11,13 @@ class Animal {
 
 class Cachorro extends Animal {
   emitirSom() {
-    console.log("Au Au");
+    console.log("O cachorro faz: Au Au");
   }
 }
 
 class Gato extends Animal {
   emitirSom() {
-    console.log("Miau");
+    console.log("O gato faz: Miau");
   }
 }
 
