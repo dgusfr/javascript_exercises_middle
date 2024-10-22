@@ -14,6 +14,10 @@ class Carro extends Veiculo {
     super(marca, modelo);
     return (this.numPortas = numPortas);
   }
+
+  imprimir_numero_portas() {
+    console.log(`Numero de portas: ${this.numPortas}`);
+  }
 }
 
 const meuCarro = new Carro("Toyota", "Corolla", 4);
