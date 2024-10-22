@@ -32,7 +32,7 @@ class Circulo extends Shape {
   }
 
   calcularArea() {
-    return Math.PI * this.raio ** 2;
+    return (Math.PI * this.raio ** 2).toFixed(2);
   }
 }
 
