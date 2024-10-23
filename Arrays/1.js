@@ -1,6 +1,6 @@
 function somaArray(numeros) {
   let soma = 0;
-  numeros.forEach(function (numero) {
+  numeros.forEach((numero)  {
     soma += numero;
   });
   return soma;
